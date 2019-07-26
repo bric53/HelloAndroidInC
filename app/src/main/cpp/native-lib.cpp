@@ -10,7 +10,7 @@ Java_com_example_helloandroidinc_MainActivity_stringFromJNI(
     long a=1; //the starting number of the additive sequence
     long b=1; //the second number of the additive sequence
     long c; // a temp var for moving the numbers
-    for (int i=0;i<100;i++)
+    for (int i=0;a>0;i++) //used A>0 to stop overflow
     {
         fib += std::to_string(a) + " ";
         c=a;
